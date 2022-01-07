@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Vinay Yadav</title>
+    <link rel="icon" href="favicon.png">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            position: absolute;
+            z-index: -1;
+            top: 50px;
+            right: 15px;
+        }
+        #navbar {
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 30px;
+            position: fixed;
+            top: 0;
+        }
+        .navlink {
+            text-decoration: none;
+            color: white;
+            margin-left: 70px;
+        }
+        .navlink:hover{
+            color: red;
+        }
+        section h1{
+            margin-top: 95px;
+            margin-left: 50px;
+            font-size: 45px;
+            font-family: cursive;
+            font-weight: 800;
+        }
+        section p {
+            margin-left: 50px;
+            margin-top: 30px;
+            color: #cccccc;
+        }
+        section p a {
+            text-decoration: none;
+            color: tomato;
+        }
+        form {
+            z-index: -1;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        form .input{
+            width: 450px;
+            height: 25px;
+            border-radius: 10px;
+            background-color: rgba(27,27,27,.91);
+        }
+        form .message{
+            width: 450px;
+            height: 70px;
+            border-radius: 10px;
+            background-color: rgba(27,27,27,.91);
+        }
+        form .button{
+            color: #f0860c;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 12px;
+            background-color: rgba(27,27,27,.91);
+        }
+        form input {
+            color: yellow;
+        }
+        form textarea {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <header>
+            <nav id="navbar">
+                <a class= "navlink" href="vinayportfolio.html">Home</a>
+                <a class= "navlink" href="aboutpage.html">About</a>
+                <a class= "navlink" href="workpage.html">Work</a>
+                <a class= "navlink" href="writingpage.html">Writing</a>
+                <a class= "navlink" href="contactpage.html" target="_self">Contact</a>
+            </nav>
+        </header>
+    </header>
+    <main>
+        <section>
+        <h1>Let's Talk.</h1>
+        <p>Get in touch via the form below, or by emailing <br><b><a href="#"> vinay.yadav.official.123@gmail.com</a></b></p>
+        <form class="left">
+            <label for="name">Name:</label><br>
+            <input class="input" type="text" placeholder="Enter your name"><br><br>
+            <label for="email">Email Address:</label><br>
+            <input class="input" type="email" placeholder="Enter your email address"><br><br>
+            <label for="message">Message</label><br>
+            <textarea class="message"  placeholder="Enter your message"></textarea><br><br>
+            <input  class="button" type="button" value="Submit">
+        </form>
+        </section>
+        <img class="right" src="about_Img.png">
+    </main>
+</body>
+</html>

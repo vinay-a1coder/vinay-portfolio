@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+}
+#navbar {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0;
+}
+.navlink {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 70px;
+}
+.navlin{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    right: 90px;
+}
+
+.navlink:hover{
+    color: red;
+}
+.home {
+    display: flex;
+}
+#myimg {
+    position: absolute;
+    right: 30px;
+    z-index: -1;
+}
+.information {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+#name {
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: normal;
+}
+.heading {
+    font-family: ui-monospace;
+    font-size: 45px;
+}
+.para{
+    font-family: cursive;
+}
+.para b {
+    color: tomato;
+}
+.para a{
+    text-decoration: none;
+}
